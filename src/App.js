@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import Animal from "./Animal";
+import Weapon from "./Weapon";
+import Tracking from "./Tracking";
+import Face from "./Face";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <h2>Intrusion Detection system to protect campus environmenst using machine learning and deep learning techniques</h2>
+      <h2>Module 1: Animal Threat detection</h2>
+      <Animal />
+
+      <hr style={{ margin: "40px 0" }} />
+
+      <h2>Module2: Armed intrusion Detection</h2>
+      <Weapon />
+
+      <hr style={{ margin: "40px 0" }} />
+
+      <h2> Tracking module</h2>
+      <Tracking />
+
+      <hr style={{ margin: "40px 0" }} />
+
+      <h2>Face Authorization module</h2>
+      <Face />
     </div>
   );
 }
