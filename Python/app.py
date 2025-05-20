@@ -17,10 +17,10 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # ✅ Twilio configuration
-TWILIO_ACCOUNT_SID = "ACec708d3f94bd229bc644e9b42c466d50"
-TWILIO_AUTH_TOKEN = "eebd80b54124dfb873ea68c2f513a59e"
-TWILIO_FROM_NUMBER = "+18782255912"
-TWILIO_TO_NUMBER = "+919488317257"
+TWILIO_ACCOUNT_SID = "ACec708d3f94bd222c466d50"
+TWILIO_AUTH_TOKEN = "eebd80b54124dfb873ea3a59e"
+TWILIO_FROM_NUMBER = "+187822552"
+TWILIO_TO_NUMBER = "+919172"
 
 def send_sms_alert(message):
     try:
